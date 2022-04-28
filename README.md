@@ -28,50 +28,54 @@ class MyWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        color: Colors.white,
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(40.0),
+        color: Colors.white,),
+        height: 600,
+        width: 600,
         child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Container(
                 decoration: const BoxDecoration(
-                    color: Colors.green,
+                    color: Colors.blue,
                     borderRadius: BorderRadius.all(
                       Radius.circular(10.0),
                     )),
-                height: 50,
-                width: 150,
+                height: 70,
+                width: 300,
               ),
               Row(
-                  //   crossAxisAlignment: CrossAxisAlignment.center,
+                  
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Container(
                       decoration: const BoxDecoration(
-                          color: Colors.green,
+                          color: Colors.blue,
                           borderRadius: BorderRadius.all(
                             Radius.circular(10.0),
                           )),
-                      height: 50,
-                      width: 50,
+                      height: 70,
+                      width: 70,
                     ),
                     Container(
                       decoration: const BoxDecoration(
-                          color: Colors.green,
+                          color: Colors.blue,
                           borderRadius: BorderRadius.all(
                             Radius.circular(10.0),
                           )),
-                      height: 50,
-                      width: 50,
+                      height: 70,
+                      width: 70,
                     ),
                   ]),
               Container(
                 decoration: const BoxDecoration(
-                    color: Colors.green,
+                    color: Colors.blue,
                     borderRadius: BorderRadius.all(
                       Radius.circular(10.0),
                     )),
-                height: 50,
-                width: 150,
+                height: 70,
+                width: 300,
               ),
               Row(
                   crossAxisAlignment: CrossAxisAlignment.center,
@@ -79,51 +83,51 @@ class MyWidget extends StatelessWidget {
                   children: [
                     Container(
                       decoration: const BoxDecoration(
-                          color: Colors.green,
+                          color: Colors.blue,
                           borderRadius: BorderRadius.all(
                             Radius.circular(10.0),
                           )),
-                      height: 50,
-                      width: 50,
+                      height: 70,
+                      width: 70,
                     ),
                     Container(
                       decoration: const BoxDecoration(
-                          color: Colors.green,
+                          color: Colors.blue,
                           borderRadius: BorderRadius.all(
                             Radius.circular(10.0),
                           )),
-                      height: 50,
-                      width: 50,
+                      height: 70,
+                      width: 70,
                     ),
                     Container(
                       decoration: const BoxDecoration(
-                          color: Colors.green,
+                          color: Colors.blue,
                           borderRadius: BorderRadius.all(
                             Radius.circular(10.0),
                           )),
-                      height: 50,
-                      width: 50,
+                      height: 70,
+                      width: 70,
                     ),
                     Container(
                       decoration: const BoxDecoration(
-                          color: Colors.green,
+                          color: Colors.blue,
                           borderRadius: BorderRadius.all(
                             Radius.circular(10.0),
                           )),
-                      height: 50,
-                      width: 50,
+                      height: 70,
+                      width: 70,
                     ),
                   ]),
               Container(
-                  width: 200,
+                  width: 300,
                   decoration: const BoxDecoration(
-                      color: Colors.green,
+                      color: Colors.blue,
                       borderRadius: BorderRadius.all(
                         Radius.circular(10.0),
                       )),
                   child: Column(children: [
                         const SizedBox(
-                      height: 20,
+                      height: 25,
                     ),
                     Row(
                         crossAxisAlignment: CrossAxisAlignment.center,
@@ -131,12 +135,38 @@ class MyWidget extends StatelessWidget {
                         children: [
                           Container(
                             decoration: const BoxDecoration(
-                                color: Colors.purple,
+                                color: Colors.yellow,
                                 borderRadius: BorderRadius.all(
                                   Radius.circular(10.0),
                                 )),
-                            height: 50,
-                            width: 50,
+                            height: 75,
+                            width: 75,
+                          ),
+                          Container(
+                            decoration: const BoxDecoration(
+                                color: Colors.black,
+                                borderRadius: BorderRadius.all(
+                                  Radius.circular(10.0),
+                                )),
+                            height: 75,
+                            width: 75,
+                          ),
+                        ]),
+                    const SizedBox(
+                      height: 30,
+                    ),
+                    Row(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        children: [
+                          Container(
+                            decoration: const BoxDecoration(
+                                color: Colors.white,
+                                borderRadius: BorderRadius.all(
+                                  Radius.circular(10.0),
+                                )),
+                            height: 75,
+                            width: 75,
                           ),
                           Container(
                             decoration: const BoxDecoration(
@@ -144,34 +174,8 @@ class MyWidget extends StatelessWidget {
                                 borderRadius: BorderRadius.all(
                                   Radius.circular(10.0),
                                 )),
-                            height: 50,
-                            width: 50,
-                          ),
-                        ]),
-                    const SizedBox(
-                      height: 20,
-                    ),
-                    Row(
-                        crossAxisAlignment: CrossAxisAlignment.center,
-                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                        children: [
-                          Container(
-                            decoration: const BoxDecoration(
-                                color: Colors.red,
-                                borderRadius: BorderRadius.all(
-                                  Radius.circular(10.0),
-                                )),
-                            height: 50,
-                            width: 50,
-                          ),
-                          Container(
-                            decoration: const BoxDecoration(
-                                color: Colors.blue,
-                                borderRadius: BorderRadius.all(
-                                  Radius.circular(10.0),
-                                )),
-                            height: 50,
-                            width: 50,
+                            height: 75,
+                            width: 75,
                           ),
                       
                         ]),
